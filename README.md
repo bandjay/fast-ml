@@ -77,7 +77,7 @@ Example Machine learning application is a classifier model. Model training and t
     *  ```python testing/async_predictions.py 1000``` this command will make 1000 asynchronous POST requests to `get_precitions` API , you can change 1000 to 1000000 and it may take up-to 30-40 mins for all requests to complete depending on your machine.
 7. Check `ML_server.log` to see several POST requests being served in asynchronous fashion
 
-### Modifications need for your ML application
+### Modifications needed for your ML application
 In case you want use this example as template for your ML application , only few files needs to be modified . Refer to `Directory structure` section 
 * In `./ML` directory make changes as per your need/purpose . You can include several ML models such as classifier , regression model etc.,
 * Add additional python library dependencies as you need in `requirements.txt` file
