@@ -1,0 +1,1 @@
+import ossaved_models_path=os.path.join(os.getcwd(),"ML","saved_models")model_name='ml_model.pkl'model_file_path=os.path.join(saved_models_path,model_name)
